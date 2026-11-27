@@ -1,0 +1,15 @@
+# Data (raw data lives on S3, not in git)
+data/
+*.parquet
+
+# Python
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.secret
+
+# OS
+.DS_Store
